@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Space Gray",
+  "version": "1.0",
+  "description": "Space gray theme",
+  "icons": {
+    "48": "icons/logo-48.png"
+  },
+  "theme": {
+    "images": {
+      "headerURL": ""
+    },
+    "colors": {
+      "accentcolor": "#272b35",
+      "textcolor": "#d2d6dd",
+      "toolbar": "#393F4C",
+      "toolbar_top_separator": "#171B1F",
+      "toolbar_bottom_separator": "#171B1F",
+      "toolbar_vertical_separator": "#4f5b66",
+      "toolbar_field": "#171B1F",
+      "toolbar_field_text": "#ffffff",
+      "toolbar_field_border": "#272b35",
+      "toolbar_field_separator": "#393F4C",
+      "toolbar_text": "#d2d6dd",
+      "tab_selected": "#393F4C",
+      "tab_text": "#ffffff",
+      "tab_line": "#0a84ff",
+      "tab_loading": "#0a84ff",
+      "tab_background_separator": "#a7adba",
+      "button_background_hover": "#4f5b66",
+      "button_background_active": "#65737e",
+      "popup": "#393F4C",
+      "popup_text": "#d2d6dd",
+      "sidebar": "#393F4C",
+      "sidebar_text": "#d2d6dd",
+      "sidebar_highlight": "#393F4C",
+      "sidebar_highlight_text": "#fff",
+      "sidebar_border": "#393F4C",
+      "ntp_background": "#202429",
+      "ntp_text": "#ffffff"
+    }
+  }
+}
