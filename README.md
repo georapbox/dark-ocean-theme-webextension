@@ -1,0 +1,1 @@
+# firefox-space-gray-theme
