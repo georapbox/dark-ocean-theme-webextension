@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Dark Ocean Theme (WebExtension)",
   "version": "1.0",
-  "description": "Dark bluish theme",
+  "description": "A dark bluish theme for Firefox, similar to the original dark theme of Firefox Developer Edition.",
   "author": "George Raptis",
   "browser_specific_settings": {
     "gecko": {
