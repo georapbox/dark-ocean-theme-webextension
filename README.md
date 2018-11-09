@@ -1,1 +1,6 @@
-# firefox-space-gray-theme
+# Dark Ocean Theme (WebExtension)
+
+Dark bluish theme for Firefox
+
+## Screenshots
+![Screenshot](screenshots/screenshot.png)
