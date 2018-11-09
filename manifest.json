@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dark Ocean Theme (WebExtension)",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A dark bluish theme for Firefox, similar to the original dark theme of Firefox Developer Edition.",
   "author": "George Raptis",
   "browser_specific_settings": {
@@ -19,43 +19,43 @@
       "headerURL": ""
     },
     "colors": {
-      "accentcolor": "#272b35",
-      "textcolor": "#d2d6dd",
-      "toolbar": "#393F4C",
-      "tab_line": "#0a84ff",
-      "tab_loading": "#0a84ff", // Firefox 60
-      "icons_attention": "#65abf8", // Firefox 60
+      "accentcolor": [39, 43, 53],
+      "textcolor": [210, 214, 221],
+      "toolbar": [57, 63, 76],
+      "tab_line": [10, 132, 255],
+      "tab_loading": [10, 132, 255], // Firefox 60
+      "icons_attention": [101, 171, 248], // Firefox 60
 
-      "toolbar_top_separator": "#171B1F",
-      "toolbar_bottom_separator": "#171B1F",
-      "toolbar_vertical_separator": "#4f5b66",
+      "toolbar_top_separator": [23, 27, 31],
+      "toolbar_bottom_separator": [23, 27, 31],
+      "toolbar_vertical_separator": [79, 91, 102],
 
-      "toolbar_field": "#171B1F",
-      "toolbar_field_text": "#ffffff",
-      "toolbar_field_focus": "#171B1F", // Firefox 61
-      "toolbar_field_border": "#272b35",
-      "toolbar_field_separator": "#393F4C", // Firefox 59
-      "toolbar_text": "#d2d6dd",
+      "toolbar_field": [23, 27, 31],
+      "toolbar_field_text": [255, 255, 255],
+      "toolbar_field_focus": [23, 27, 31], // Firefox 61
+      "toolbar_field_border": [39, 43, 53],
+      "toolbar_field_separator": [57, 63, 76], // Firefox 59
+      "toolbar_text": [210, 214, 221],
 
-      "tab_selected": "#393F4C",
-      "tab_text": "#ffffff",
-      "tab_background_separator": "#a7adba",
+      "tab_selected": [57, 63, 76],
+      "tab_text": [255, 255, 255],
+      "tab_background_separator": [167, 173, 186],
 
-      "button_background_hover": "#4f5b66", // Firefox 60
-      "button_background_active": "#65737e",
+      "button_background_hover": [79, 91, 102], // Firefox 60
+      "button_background_active": [101, 115, 126],
 
-      "popup": "#393F4C", // Firefox 60
-      "popup_text": "#d2d6dd", // Firefox 60
-      "popup_border": "#272b35",
+      "popup": [57, 63, 76], // Firefox 60
+      "popup_text": [210, 214, 221], // Firefox 60
+      "popup_border": [39, 43, 53],
 
-      "sidebar": "#393F4C", // Firefox 63
-      "sidebar_text": "#d2d6dd", // Firefox 63
-      "sidebar_highlight": "#393F4C", // Firefox 63
-      "sidebar_highlight_text": "#fff", // Firefox 63
-      "sidebar_border": "#272b35", // Firefox 64
+      "sidebar": [57, 63, 76], // Firefox 63
+      "sidebar_text": [210, 214, 221], // Firefox 63
+      "sidebar_highlight": [57, 63, 76], // Firefox 63
+      "sidebar_highlight_text": [255, 255, 255], // Firefox 63
+      "sidebar_border": [39, 43, 53], // Firefox 64
 
-      "ntp_background": "#171B1F", // Firefox 63
-      "ntp_text": "#ffffff" // Firefox 63
+      "ntp_background": [23, 27, 31], // Firefox 63
+      "ntp_text": [255, 255, 255] // Firefox 63
     }
   }
 }
