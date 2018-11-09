@@ -1,10 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "Space Gray",
+  "name": "Dark Ocean Theme (WebExtension)",
   "version": "1.0",
-  "description": "Space gray theme",
+  "description": "Dark bluish theme",
+  "author": "George Raptis",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dark-ocean-theme-webextension@georapbox",
+      "strict_min_version": "58.0"
+    }
+  },
   "icons": {
-    "48": "icons/logo-48.png"
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
   },
   "theme": {
     "images": {
@@ -14,30 +22,40 @@
       "accentcolor": "#272b35",
       "textcolor": "#d2d6dd",
       "toolbar": "#393F4C",
+      "tab_line": "#0a84ff",
+      "tab_loading": "#0a84ff", // Firefox 60
+      "icons_attention": "#65abf8", // Firefox 60
+
       "toolbar_top_separator": "#171B1F",
       "toolbar_bottom_separator": "#171B1F",
       "toolbar_vertical_separator": "#4f5b66",
+
       "toolbar_field": "#171B1F",
       "toolbar_field_text": "#ffffff",
+      "toolbar_field_focus": "#171B1F", // Firefox 61
       "toolbar_field_border": "#272b35",
-      "toolbar_field_separator": "#393F4C",
+      "toolbar_field_separator": "#393F4C", // Firefox 59
       "toolbar_text": "#d2d6dd",
+
       "tab_selected": "#393F4C",
       "tab_text": "#ffffff",
-      "tab_line": "#0a84ff",
-      "tab_loading": "#0a84ff",
       "tab_background_separator": "#a7adba",
-      "button_background_hover": "#4f5b66",
+
+      "button_background_hover": "#4f5b66", // Firefox 60
       "button_background_active": "#65737e",
-      "popup": "#393F4C",
-      "popup_text": "#d2d6dd",
-      "sidebar": "#393F4C",
-      "sidebar_text": "#d2d6dd",
-      "sidebar_highlight": "#393F4C",
-      "sidebar_highlight_text": "#fff",
-      "sidebar_border": "#393F4C",
-      "ntp_background": "#202429",
-      "ntp_text": "#ffffff"
+
+      "popup": "#393F4C", // Firefox 60
+      "popup_text": "#d2d6dd", // Firefox 60
+      "popup_border": "#272b35",
+
+      "sidebar": "#393F4C", // Firefox 63
+      "sidebar_text": "#d2d6dd", // Firefox 63
+      "sidebar_highlight": "#393F4C", // Firefox 63
+      "sidebar_highlight_text": "#fff", // Firefox 63
+      "sidebar_border": "#272b35", // Firefox 64
+
+      "ntp_background": "#171B1F", // Firefox 63
+      "ntp_text": "#ffffff" // Firefox 63
     }
   }
 }
