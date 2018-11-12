@@ -10,4 +10,4 @@ A dark bluish theme for Firefox, similar to the original dark theme of Firefox D
 
 ## License
 
-[The MIT License (MIT)](https://georapbox.mit-license.org/@2018)
+[Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
