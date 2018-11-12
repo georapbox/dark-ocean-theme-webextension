@@ -1,15 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Dark Ocean Theme (WebExtension)",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A dark bluish theme for Firefox, similar to the original dark theme of Firefox Developer Edition.",
   "author": "George Raptis",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "dark-ocean-theme-webextension@georapbox",
-      "strict_min_version": "58.0"
-    }
-  },
   "icons": {
     "48": "icons/icon.svg",
     "96": "icons/icon.svg"
@@ -23,8 +17,8 @@
       "textcolor": [210, 214, 221],
       "toolbar": [57, 63, 76],
       "tab_line": [10, 132, 255],
-      "tab_loading": [10, 132, 255], // Firefox 60
-      "icons_attention": [101, 171, 248], // Firefox 60
+      "tab_loading": [10, 132, 255],
+      "icons_attention": [101, 171, 248],
 
       "toolbar_top_separator": [23, 27, 31],
       "toolbar_bottom_separator": [23, 27, 31],
@@ -32,30 +26,30 @@
 
       "toolbar_field": [23, 27, 31],
       "toolbar_field_text": [255, 255, 255],
-      "toolbar_field_focus": [23, 27, 31], // Firefox 61
+      "toolbar_field_focus": [23, 27, 31],
       "toolbar_field_border": [39, 43, 53],
-      "toolbar_field_separator": [57, 63, 76], // Firefox 59
+      "toolbar_field_separator": [57, 63, 76],
       "toolbar_text": [210, 214, 221],
 
       "tab_selected": [57, 63, 76],
       "tab_text": [255, 255, 255],
       "tab_background_separator": [167, 173, 186],
 
-      "button_background_hover": [79, 91, 102], // Firefox 60
+      "button_background_hover": [79, 91, 102],
       "button_background_active": [101, 115, 126],
 
-      "popup": [57, 63, 76], // Firefox 60
-      "popup_text": [210, 214, 221], // Firefox 60
+      "popup": [57, 63, 76],
+      "popup_text": [210, 214, 221],
       "popup_border": [39, 43, 53],
 
-      "sidebar": [57, 63, 76], // Firefox 63
-      "sidebar_text": [210, 214, 221], // Firefox 63
-      "sidebar_highlight": [57, 63, 76], // Firefox 63
-      "sidebar_highlight_text": [255, 255, 255], // Firefox 63
-      "sidebar_border": [39, 43, 53], // Firefox 64
+      "sidebar": [57, 63, 76],
+      "sidebar_text": [210, 214, 221],
+      "sidebar_highlight": [57, 63, 76],
+      "sidebar_highlight_text": [255, 255, 255],
+      "sidebar_border": [39, 43, 53],
 
-      "ntp_background": [23, 27, 31], // Firefox 63
-      "ntp_text": [255, 255, 255] // Firefox 63
+      "ntp_background": [23, 27, 31],
+      "ntp_text": [255, 255, 255]
     }
   }
 }
