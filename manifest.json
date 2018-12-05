@@ -9,9 +9,6 @@
     "96": "icons/icon.svg"
   },
   "theme": {
-    "images": {
-      "theme_frame": ""
-    },
     "colors": {
       "frame": [39, 43, 53],
       "tab_background_text": [210, 214, 221],
