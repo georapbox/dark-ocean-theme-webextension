@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dark Ocean Theme (WebExtension)",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A dark bluish theme for Firefox, similar to the original dark theme of Firefox Developer Edition.",
   "author": "George Raptis",
   "icons": {
@@ -10,11 +10,11 @@
   },
   "theme": {
     "images": {
-      "headerURL": ""
+      "theme_frame": ""
     },
     "colors": {
-      "accentcolor": [39, 43, 53],
-      "textcolor": [210, 214, 221],
+      "frame": [39, 43, 53],
+      "tab_background_text": [210, 214, 221],
       "toolbar": [57, 63, 76],
       "tab_line": [10, 132, 255],
       "tab_loading": [10, 132, 255],
@@ -29,7 +29,7 @@
       "toolbar_field_focus": [23, 27, 31],
       "toolbar_field_border": [39, 43, 53],
       "toolbar_field_separator": [57, 63, 76],
-      "toolbar_text": [210, 214, 221],
+      "bookmark_text": [210, 214, 221],
 
       "tab_selected": [57, 63, 76],
       "tab_text": [255, 255, 255],
